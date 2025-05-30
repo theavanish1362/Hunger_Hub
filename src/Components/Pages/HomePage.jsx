@@ -150,18 +150,18 @@ const HomePage = () => {
             className="w-full h-auto brightness-60 transition duration-200 hover:brightness-50"
           />
         </div>
-        <div className="mt-5 mb-5 flex items-center text-sm text-gray-500">
-          <h1 className="ml-4 text-4xl font-bold text-gray-600">
+        <div className="mt-5 mb-5 flex flex-col md:flex-row items-start md:items-center text-sm text-gray-500 space-y-4 md:space-y-0">
+          <h1 className="ml-0 md:ml-4 text-2xl md:text-4xl font-bold text-gray-600">
             {" "}
             Your Nearby <span className="text-orange-500">Restaurants</span>
           </h1>
-          <div className="ml-auto flex items-center">
-            <h2 className="mr-4 font-bold text-orange-500">Select Location:</h2>
-            <span className=" mr-6 border-2 rounded-2xl ">
+          <div className="md:ml-auto flex items-center">
+            <h2 className="mr-4 font-bold text-orange-500 text-base md:text-sm">Select Location:</h2>
+            <span className="flex mr-6 border-2 rounded-2xl ">
               <select
                 onChange={handleCityChange}
                 value={selectedCity}
-                className="outline-none"
+                className="outline-none bg-transparent text-sm"
               >
                 <option value="">Select a city</option>
                 <option value="Jaipur">Jaipur</option>

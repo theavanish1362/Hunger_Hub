@@ -6,6 +6,7 @@ import CartPage from './Components/Pages/CartPage'
 import LoginPage from './Components/Pages/LoginPage'
 import SignupPage from './Components/Pages/SignupPage'
 import ThankYouPage from './Components/Pages/ThankYouPage'
+import Transition from './Components/Pages/Transition'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/restaurant/:id" element={<RestaurantDetails />} />
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/thankyou" element={<ThankYouPage/>} />
+        <Route path="/t" element={<Transition/>} />
       </Routes>
       
     </>

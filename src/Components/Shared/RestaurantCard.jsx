@@ -5,7 +5,7 @@ export default function RestaurantCard({ restaurant }) {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-gray-50 rounded-2xl shadow-md hover:shadow-lg transition p-4 w-full">
+    <div className="bg-gray-50 rounded-2xl shadow-md transition duration-500 hover:scale-105 hover:shadow-xl p-4 w-full">
       <img
         src={restaurant.image}
         alt={restaurant.name}

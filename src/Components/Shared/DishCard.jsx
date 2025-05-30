@@ -6,7 +6,7 @@ const DishCard = ({ dish }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="max-w-xs rounded-2xl overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow duration-300">
+    <div className="max-w-xs rounded-2xl overflow-hidden shadow-lg bg-white transition duration-500 hover:scale-105 hover:shadow-xl">
       <img
         className="w-full h-48 object-cover"
         src={dish.image}
