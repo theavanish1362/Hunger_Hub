@@ -172,6 +172,7 @@ export default function RestaurantDetailCard({ restaurant }) {
                 </div>
 
                 {/* Dish Grid */}
+               <div className="flex items-center">
                 {filteredDishes.length > 0 ? (
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {filteredDishes.map((food, index) => (
@@ -181,6 +182,7 @@ export default function RestaurantDetailCard({ restaurant }) {
                 ) : (
                   <p className="text-gray-500">No dishes found.</p>
                 )}
+                </div> 
               </div>
             </div>
           )}

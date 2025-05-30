@@ -54,7 +54,7 @@ const SignupPage = () => {
       {/*Navbar*/}
 
       {/*SignUp component starts here*/}
-      <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+      <div className="py-16 md:min-h-screen flex items-center justify-center bg-gray-100 px-4">
         <div className="w-full max-w-md p-8 bg-white rounded-2xl shadow-lg">
           <h2 className="text-2xl font-bold mb-6 text-center text-orange-500">
             Sign Up
